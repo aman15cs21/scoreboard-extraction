@@ -1,1 +1,1 @@
-"""FOG Technologies scoreboard extraction package."""
+"""scoreboard extraction package."""

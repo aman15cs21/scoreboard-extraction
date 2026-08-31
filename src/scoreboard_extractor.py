@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import json
 import re
+import shutil
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -30,7 +31,25 @@ class ScoreboardExtractor:
         self.config = json.loads((root / "config.json").read_text(encoding="utf-8"))
         self.players = self.config["players"]
         self.total_cells = self.config["total_cells"]
+        self._configure_tesseract()
         self.templates = self._load_templates(root / "templates")
+
+    @staticmethod
+    def _configure_tesseract() -> None:
+        """Configure the standard Windows installation path when needed."""
+        if pytesseract is None:
+            return
+        candidates = [
+            Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe"),
+            Path(r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"),
+        ]
+        if not getattr(pytesseract, "pytesseract", None):
+            return
+        if not shutil.which("tesseract"):
+            for candidate in candidates:
+                if candidate.exists():
+                    pytesseract.pytesseract.tesseract_cmd = str(candidate)
+                    break
 
     @staticmethod
     def ratio_crop(frame: np.ndarray, box: list[float] | tuple[float, ...]) -> np.ndarray:

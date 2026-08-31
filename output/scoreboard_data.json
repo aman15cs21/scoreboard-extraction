@@ -1,10 +1,10 @@
 {
   "project": "FOG Technologies - Computer Vision Engineer Assignment",
   "task": "Scoreboard Data Extraction from Video",
-  "input_video": "bowling_scoreboard.mp4",
+  "input_video": "bowling_scoreboard__.mp4",
   "video_info": {
-    "width": 1920,
-    "height": 1080,
+    "width": 1280,
+    "height": 720,
     "fps": 30.0,
     "frame_count": 1735,
     "duration_sec": 57.833
@@ -43,103 +43,103 @@
     {
       "frame": 0,
       "time_sec": 0.0,
-      "scene_confidence": 0.5023,
+      "scene_confidence": 0.5021,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.988,
+          "confidence": 0.86,
           "method": "template",
           "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.991,
+          "confidence": 0.937,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.973,
-          "method": "template",
-          "template": "54_0_2.png"
-        },
-        {
-          "player": "TARUN",
-          "score": 36,
-          "confidence": 0.946,
-          "method": "template",
-          "template": "36_10_3.png"
-        }
-      ]
-    },
-    {
-      "frame": 15,
-      "time_sec": 0.5,
-      "scene_confidence": 0.5022,
-      "rows": [
-        {
-          "player": "JAGDISH",
-          "score": 31,
-          "confidence": 0.973,
-          "method": "template",
-          "template": "31_0_0.png"
-        },
-        {
-          "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.982,
-          "method": "template",
-          "template": "28_0_1.png"
-        },
-        {
-          "player": "P",
-          "score": 54,
-          "confidence": 0.97,
-          "method": "template",
-          "template": "54_0_2.png"
-        },
-        {
-          "player": "TARUN",
-          "score": 36,
-          "confidence": 0.982,
-          "method": "template",
-          "template": "36_10_3.png"
-        }
-      ]
-    },
-    {
-      "frame": 30,
-      "time_sec": 1.0,
-      "scene_confidence": 0.5027,
-      "rows": [
-        {
-          "player": "JAGDISH",
-          "score": 31,
-          "confidence": 0.977,
-          "method": "template",
-          "template": "31_10_0.png"
-        },
-        {
-          "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.986,
-          "method": "template",
-          "template": "28_0_1.png"
-        },
-        {
-          "player": "P",
-          "score": 54,
-          "confidence": 0.969,
+          "confidence": 0.871,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.972,
+          "confidence": 0.879,
+          "method": "template",
+          "template": "33_0_3.png"
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "time_sec": 0.5,
+      "scene_confidence": 0.5024,
+      "rows": [
+        {
+          "player": "JAGDISH",
+          "score": 31,
+          "confidence": 0.863,
+          "method": "template",
+          "template": "31_0_0.png"
+        },
+        {
+          "player": "VISHAL",
+          "score": 28,
+          "confidence": 0.935,
+          "method": "template",
+          "template": "28_0_1.png"
+        },
+        {
+          "player": "P",
+          "score": 54,
+          "confidence": 0.871,
+          "method": "template",
+          "template": "54_10_2.png"
+        },
+        {
+          "player": "TARUN",
+          "score": 33,
+          "confidence": 0.863,
+          "method": "template",
+          "template": "33_0_3.png"
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "time_sec": 1.0,
+      "scene_confidence": 0.5026,
+      "rows": [
+        {
+          "player": "JAGDISH",
+          "score": 31,
+          "confidence": 0.862,
+          "method": "template",
+          "template": "31_0_0.png"
+        },
+        {
+          "player": "VISHAL",
+          "score": 28,
+          "confidence": 0.939,
+          "method": "template",
+          "template": "28_0_1.png"
+        },
+        {
+          "player": "P",
+          "score": 54,
+          "confidence": 0.875,
+          "method": "template",
+          "template": "54_10_2.png"
+        },
+        {
+          "player": "TARUN",
+          "score": 33,
+          "confidence": 0.869,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -148,138 +148,138 @@
     {
       "frame": 45,
       "time_sec": 1.5,
-      "scene_confidence": 0.5026,
+      "scene_confidence": 0.5028,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.979,
+          "confidence": 0.864,
           "method": "template",
           "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.988,
+          "confidence": 0.941,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.972,
+          "confidence": 0.872,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.982,
+          "score": 33,
+          "confidence": 0.864,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 60,
       "time_sec": 2.0,
-      "scene_confidence": 0.5023,
+      "scene_confidence": 0.5029,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.965,
+          "confidence": 0.859,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.984,
+          "confidence": 0.939,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.969,
+          "confidence": 0.869,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.979,
+          "score": 33,
+          "confidence": 0.872,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 75,
       "time_sec": 2.5,
-      "scene_confidence": 0.5025,
+      "scene_confidence": 0.5021,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.98,
+          "confidence": 0.864,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.985,
+          "confidence": 0.939,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.968,
+          "confidence": 0.873,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.983,
+          "score": 33,
+          "confidence": 0.871,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 90,
       "time_sec": 3.0,
-      "scene_confidence": 0.5025,
+      "scene_confidence": 0.5026,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.987,
+          "confidence": 0.861,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.987,
+          "confidence": 0.94,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.973,
+          "confidence": 0.872,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.975,
+          "confidence": 0.875,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -293,28 +293,28 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.983,
+          "confidence": 0.863,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.982,
+          "confidence": 0.938,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.97,
+          "confidence": 0.873,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.975,
+          "confidence": 0.876,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -323,33 +323,33 @@
     {
       "frame": 225,
       "time_sec": 7.5,
-      "scene_confidence": 0.5008,
+      "scene_confidence": 0.5045,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.977,
+          "confidence": 0.86,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.982,
+          "confidence": 0.938,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.972,
+          "confidence": 0.868,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.973,
+          "confidence": 0.844,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -358,35 +358,35 @@
     {
       "frame": 240,
       "time_sec": 8.0,
-      "scene_confidence": 0.5038,
+      "scene_confidence": 0.5061,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.978,
+          "confidence": 0.86,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.981,
+          "confidence": 0.938,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.967,
+          "confidence": 0.862,
           "method": "template",
-          "template": "54_10_2.png"
+          "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.98,
+          "score": 33,
+          "confidence": 0.877,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
@@ -398,28 +398,28 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.983,
+          "confidence": 0.86,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.983,
+          "confidence": 0.936,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.971,
+          "confidence": 0.87,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.97,
+          "confidence": 0.864,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -433,28 +433,28 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.981,
+          "confidence": 0.859,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.981,
+          "confidence": 0.935,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.97,
+          "confidence": 0.87,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.972,
+          "confidence": 0.87,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -468,28 +468,28 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.982,
+          "confidence": 0.858,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.98,
+          "confidence": 0.937,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.971,
+          "confidence": 0.87,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.975,
+          "confidence": 0.874,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -498,68 +498,68 @@
     {
       "frame": 300,
       "time_sec": 10.0,
-      "scene_confidence": 0.5057,
+      "scene_confidence": 0.5051,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.989,
+          "confidence": 0.858,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.983,
+          "confidence": 0.938,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.971,
-          "method": "template",
-          "template": "54_10_2.png"
-        },
-        {
-          "player": "TARUN",
-          "score": 36,
-          "confidence": 0.984,
-          "method": "template",
-          "template": "36_10_3.png"
-        }
-      ]
-    },
-    {
-      "frame": 315,
-      "time_sec": 10.5,
-      "scene_confidence": 0.5055,
-      "rows": [
-        {
-          "player": "JAGDISH",
-          "score": 31,
-          "confidence": 0.984,
-          "method": "template",
-          "template": "31_10_0.png"
-        },
-        {
-          "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.982,
-          "method": "template",
-          "template": "28_0_1.png"
-        },
-        {
-          "player": "P",
-          "score": 54,
-          "confidence": 0.97,
+          "confidence": 0.872,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.974,
+          "confidence": 0.866,
+          "method": "template",
+          "template": "33_0_3.png"
+        }
+      ]
+    },
+    {
+      "frame": 315,
+      "time_sec": 10.5,
+      "scene_confidence": 0.5046,
+      "rows": [
+        {
+          "player": "JAGDISH",
+          "score": 31,
+          "confidence": 0.858,
+          "method": "template",
+          "template": "31_0_0.png"
+        },
+        {
+          "player": "VISHAL",
+          "score": 28,
+          "confidence": 0.934,
+          "method": "template",
+          "template": "28_0_1.png"
+        },
+        {
+          "player": "P",
+          "score": 54,
+          "confidence": 0.871,
+          "method": "template",
+          "template": "54_0_2.png"
+        },
+        {
+          "player": "TARUN",
+          "score": 33,
+          "confidence": 0.866,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -568,33 +568,33 @@
     {
       "frame": 330,
       "time_sec": 11.0,
-      "scene_confidence": 0.5058,
+      "scene_confidence": 0.5044,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.979,
+          "confidence": 0.861,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.981,
+          "confidence": 0.938,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.972,
+          "confidence": 0.871,
           "method": "template",
-          "template": "54_10_2.png"
+          "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.971,
+          "confidence": 0.871,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -603,68 +603,68 @@
     {
       "frame": 345,
       "time_sec": 11.5,
-      "scene_confidence": 0.506,
+      "scene_confidence": 0.5052,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.976,
+          "confidence": 0.86,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.981,
+          "confidence": 0.939,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.968,
+          "confidence": 0.869,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.982,
+          "score": 33,
+          "confidence": 0.883,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 360,
       "time_sec": 12.0,
-      "scene_confidence": 0.5062,
+      "scene_confidence": 0.506,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.986,
+          "confidence": 0.86,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.98,
+          "confidence": 0.937,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.969,
+          "confidence": 0.872,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.974,
+          "confidence": 0.877,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -673,33 +673,33 @@
     {
       "frame": 375,
       "time_sec": 12.5,
-      "scene_confidence": 0.5061,
+      "scene_confidence": 0.5057,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.982,
+          "confidence": 0.86,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.987,
+          "confidence": 0.936,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.971,
+          "confidence": 0.87,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.976,
+          "confidence": 0.882,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -708,33 +708,33 @@
     {
       "frame": 390,
       "time_sec": 13.0,
-      "scene_confidence": 0.5059,
+      "scene_confidence": 0.5058,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.985,
+          "confidence": 0.861,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.987,
+          "confidence": 0.937,
           "method": "template",
-          "template": "28_10_1.png"
+          "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.968,
+          "confidence": 0.871,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.968,
+          "confidence": 0.876,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -743,33 +743,33 @@
     {
       "frame": 405,
       "time_sec": 13.5,
-      "scene_confidence": 0.5058,
+      "scene_confidence": 0.5055,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.981,
+          "confidence": 0.863,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.986,
+          "confidence": 0.936,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.971,
+          "confidence": 0.871,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.98,
+          "confidence": 0.881,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -778,33 +778,33 @@
     {
       "frame": 420,
       "time_sec": 14.0,
-      "scene_confidence": 0.506,
+      "scene_confidence": 0.5054,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.982,
+          "confidence": 0.861,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.983,
+          "confidence": 0.937,
           "method": "template",
-          "template": "28_0_1.png"
+          "template": "28_10_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.969,
+          "confidence": 0.872,
           "method": "template",
-          "template": "54_10_2.png"
+          "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.982,
+          "confidence": 0.89,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -813,175 +813,175 @@
     {
       "frame": 435,
       "time_sec": 14.5,
-      "scene_confidence": 0.5061,
+      "scene_confidence": 0.5051,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.977,
+          "confidence": 0.862,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.983,
+          "confidence": 0.938,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.972,
+          "confidence": 0.87,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.971,
+          "score": 33,
+          "confidence": 0.891,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 450,
       "time_sec": 15.0,
-      "scene_confidence": 0.506,
+      "scene_confidence": 0.5056,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.964,
+          "confidence": 0.864,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.984,
+          "confidence": 0.94,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.972,
+          "confidence": 0.87,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.979,
+          "score": 33,
+          "confidence": 0.884,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 465,
       "time_sec": 15.5,
-      "scene_confidence": 0.5056,
+      "scene_confidence": 0.5054,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.983,
+          "confidence": 0.859,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.987,
+          "confidence": 0.935,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.969,
+          "confidence": 0.863,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.981,
+          "score": 33,
+          "confidence": 0.871,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 480,
       "time_sec": 16.0,
-      "scene_confidence": 0.5061,
+      "scene_confidence": 0.5058,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.973,
+          "confidence": 0.86,
           "method": "template",
           "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.983,
+          "confidence": 0.936,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.967,
+          "confidence": 0.866,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.975,
+          "score": 33,
+          "confidence": 0.871,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 495,
       "time_sec": 16.5,
-      "scene_confidence": 0.5059,
+      "scene_confidence": 0.5062,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.976,
+          "confidence": 0.845,
           "method": "template",
-          "template": "31_0_0.png"
+          "template": "31_10_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.983,
+          "confidence": 0.937,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.969,
+          "confidence": 0.866,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.981,
+          "score": 33,
+          "confidence": 0.864,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
@@ -993,98 +993,98 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.975,
+          "confidence": 0.859,
           "method": "template",
           "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.985,
+          "confidence": 0.936,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.971,
-          "method": "template",
-          "template": "54_0_2.png"
-        },
-        {
-          "player": "TARUN",
-          "score": 36,
-          "confidence": 0.982,
-          "method": "template",
-          "template": "36_10_3.png"
-        }
-      ]
-    },
-    {
-      "frame": 525,
-      "time_sec": 17.5,
-      "scene_confidence": 0.5058,
-      "rows": [
-        {
-          "player": "JAGDISH",
-          "score": 31,
-          "confidence": 0.984,
-          "method": "template",
-          "template": "31_10_0.png"
-        },
-        {
-          "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.99,
-          "method": "template",
-          "template": "28_10_1.png"
-        },
-        {
-          "player": "P",
-          "score": 54,
-          "confidence": 0.966,
-          "method": "template",
-          "template": "54_10_2.png"
-        },
-        {
-          "player": "TARUN",
-          "score": 36,
-          "confidence": 0.98,
-          "method": "template",
-          "template": "36_10_3.png"
-        }
-      ]
-    },
-    {
-      "frame": 540,
-      "time_sec": 18.0,
-      "scene_confidence": 0.506,
-      "rows": [
-        {
-          "player": "JAGDISH",
-          "score": 31,
-          "confidence": 0.984,
-          "method": "template",
-          "template": "31_10_0.png"
-        },
-        {
-          "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.981,
-          "method": "template",
-          "template": "28_0_1.png"
-        },
-        {
-          "player": "P",
-          "score": 54,
-          "confidence": 0.971,
+          "confidence": 0.867,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.975,
+          "confidence": 0.869,
+          "method": "template",
+          "template": "33_0_3.png"
+        }
+      ]
+    },
+    {
+      "frame": 525,
+      "time_sec": 17.5,
+      "scene_confidence": 0.506,
+      "rows": [
+        {
+          "player": "JAGDISH",
+          "score": 31,
+          "confidence": 0.856,
+          "method": "template",
+          "template": "31_0_0.png"
+        },
+        {
+          "player": "VISHAL",
+          "score": 28,
+          "confidence": 0.933,
+          "method": "template",
+          "template": "28_0_1.png"
+        },
+        {
+          "player": "P",
+          "score": 54,
+          "confidence": 0.868,
+          "method": "template",
+          "template": "54_0_2.png"
+        },
+        {
+          "player": "TARUN",
+          "score": 33,
+          "confidence": 0.87,
+          "method": "template",
+          "template": "33_0_3.png"
+        }
+      ]
+    },
+    {
+      "frame": 540,
+      "time_sec": 18.0,
+      "scene_confidence": 0.5061,
+      "rows": [
+        {
+          "player": "JAGDISH",
+          "score": 31,
+          "confidence": 0.859,
+          "method": "template",
+          "template": "31_0_0.png"
+        },
+        {
+          "player": "VISHAL",
+          "score": 28,
+          "confidence": 0.935,
+          "method": "template",
+          "template": "28_0_1.png"
+        },
+        {
+          "player": "P",
+          "score": 54,
+          "confidence": 0.867,
+          "method": "template",
+          "template": "54_0_2.png"
+        },
+        {
+          "player": "TARUN",
+          "score": 33,
+          "confidence": 0.869,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -1093,33 +1093,33 @@
     {
       "frame": 555,
       "time_sec": 18.5,
-      "scene_confidence": 0.5057,
+      "scene_confidence": 0.506,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.979,
+          "confidence": 0.86,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.984,
+          "confidence": 0.936,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.97,
+          "confidence": 0.869,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.976,
+          "confidence": 0.866,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -1128,68 +1128,68 @@
     {
       "frame": 570,
       "time_sec": 19.0,
-      "scene_confidence": 0.5061,
+      "scene_confidence": 0.5059,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.985,
+          "confidence": 0.855,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.982,
+          "confidence": 0.935,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.968,
+          "confidence": 0.865,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.981,
+          "score": 33,
+          "confidence": 0.87,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 585,
       "time_sec": 19.5,
-      "scene_confidence": 0.5057,
+      "scene_confidence": 0.5053,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.981,
+          "confidence": 0.852,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.985,
+          "confidence": 0.934,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.973,
+          "confidence": 0.868,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.977,
+          "confidence": 0.868,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -1198,33 +1198,33 @@
     {
       "frame": 600,
       "time_sec": 20.0,
-      "scene_confidence": 0.5058,
+      "scene_confidence": 0.506,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.975,
+          "confidence": 0.859,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.983,
+          "confidence": 0.936,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.969,
+          "confidence": 0.863,
           "method": "template",
-          "template": "54_0_2.png"
+          "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.977,
+          "confidence": 0.865,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -1238,28 +1238,28 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.983,
+          "confidence": 0.853,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.984,
+          "confidence": 0.935,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.97,
+          "confidence": 0.865,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.968,
+          "confidence": 0.865,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -1268,33 +1268,33 @@
     {
       "frame": 630,
       "time_sec": 21.0,
-      "scene_confidence": 0.5059,
+      "scene_confidence": 0.506,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.964,
+          "confidence": 0.854,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.982,
+          "confidence": 0.936,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.972,
+          "confidence": 0.867,
           "method": "template",
           "template": "54_10_2.png"
         },
         {
           "player": "TARUN",
           "score": 33,
-          "confidence": 0.967,
+          "confidence": 0.87,
           "method": "template",
           "template": "33_0_3.png"
         }
@@ -1303,35 +1303,35 @@
     {
       "frame": 645,
       "time_sec": 21.5,
-      "scene_confidence": 0.5057,
+      "scene_confidence": 0.506,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.981,
+          "confidence": 0.854,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.984,
+          "confidence": 0.937,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.973,
+          "confidence": 0.869,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.981,
+          "score": 33,
+          "confidence": 0.87,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
@@ -1343,133 +1343,133 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.98,
+          "confidence": 0.858,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.985,
+          "confidence": 0.937,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.97,
+          "confidence": 0.867,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.981,
+          "score": 33,
+          "confidence": 0.87,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 675,
       "time_sec": 22.5,
-      "scene_confidence": 0.5057,
+      "scene_confidence": 0.5059,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.982,
+          "confidence": 0.859,
           "method": "template",
-          "template": "31_10_0.png"
+          "template": "31_0_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.986,
+          "confidence": 0.937,
           "method": "template",
           "template": "28_0_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.97,
+          "confidence": 0.865,
           "method": "template",
           "template": "54_0_2.png"
         },
         {
           "player": "TARUN",
-          "score": 36,
-          "confidence": 0.98,
+          "score": 33,
+          "confidence": 0.871,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         }
       ]
     },
     {
       "frame": 795,
       "time_sec": 26.5,
-      "scene_confidence": 0.4988,
+      "scene_confidence": 0.4993,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.976,
+          "confidence": 0.895,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.975,
+          "score": 33,
+          "confidence": 0.826,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.976,
+          "score": 33,
+          "confidence": 0.858,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.974,
+          "confidence": 0.919,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 810,
       "time_sec": 27.0,
-      "scene_confidence": 0.4989,
+      "scene_confidence": 0.4996,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.97,
+          "confidence": 0.892,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.974,
+          "score": 33,
+          "confidence": 0.823,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.961,
+          "score": 33,
+          "confidence": 0.862,
           "method": "template",
-          "template": "54_55_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.962,
+          "confidence": 0.922,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -1478,33 +1478,33 @@
     {
       "frame": 825,
       "time_sec": 27.5,
-      "scene_confidence": 0.4989,
+      "scene_confidence": 0.4994,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.971,
+          "confidence": 0.911,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.98,
+          "score": 33,
+          "confidence": 0.829,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.968,
+          "score": 33,
+          "confidence": 0.86,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.964,
+          "confidence": 0.92,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -1513,138 +1513,138 @@
     {
       "frame": 840,
       "time_sec": 28.0,
-      "scene_confidence": 0.4989,
+      "scene_confidence": 0.499,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.977,
+          "confidence": 0.896,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.968,
+          "score": 33,
+          "confidence": 0.822,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.966,
+          "score": 33,
+          "confidence": 0.857,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.973,
+          "confidence": 0.92,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 855,
       "time_sec": 28.5,
-      "scene_confidence": 0.4986,
+      "scene_confidence": 0.4993,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.973,
+          "confidence": 0.899,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.977,
+          "score": 33,
+          "confidence": 0.826,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 36,
-          "confidence": 0.949,
+          "score": 33,
+          "confidence": 0.862,
           "method": "template",
-          "template": "36_10_3.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.976,
+          "confidence": 0.918,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 870,
       "time_sec": 29.0,
-      "scene_confidence": 0.4989,
+      "scene_confidence": 0.4991,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.978,
+          "confidence": 0.893,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.98,
+          "score": 33,
+          "confidence": 0.825,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.99,
+          "score": 33,
+          "confidence": 0.862,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.975,
+          "confidence": 0.918,
           "method": "template",
-          "template": "40_55_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 885,
       "time_sec": 29.5,
-      "scene_confidence": 0.4988,
+      "scene_confidence": 0.499,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.972,
+          "confidence": 0.888,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.973,
+          "score": 33,
+          "confidence": 0.819,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.991,
+          "score": 33,
+          "confidence": 0.859,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.963,
+          "confidence": 0.915,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -1658,63 +1658,63 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.977,
+          "confidence": 0.893,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.979,
+          "score": 33,
+          "confidence": 0.824,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.968,
+          "score": 33,
+          "confidence": 0.862,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.974,
+          "confidence": 0.918,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 915,
       "time_sec": 30.5,
-      "scene_confidence": 0.499,
+      "scene_confidence": 0.4989,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.974,
+          "confidence": 0.895,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.979,
+          "score": 33,
+          "confidence": 0.828,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.959,
+          "score": 33,
+          "confidence": 0.861,
           "method": "template",
-          "template": "54_55_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.976,
+          "confidence": 0.919,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -1728,98 +1728,98 @@
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.971,
+          "confidence": 0.893,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.975,
+          "score": 33,
+          "confidence": 0.825,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.971,
+          "score": 33,
+          "confidence": 0.859,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.975,
+          "confidence": 0.919,
           "method": "template",
-          "template": "40_55_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 945,
       "time_sec": 31.5,
-      "scene_confidence": 0.4989,
+      "scene_confidence": 0.499,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.974,
+          "confidence": 0.894,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.979,
+          "score": 33,
+          "confidence": 0.831,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.99,
+          "score": 33,
+          "confidence": 0.864,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.973,
+          "confidence": 0.919,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 960,
       "time_sec": 32.0,
-      "scene_confidence": 0.499,
+      "scene_confidence": 0.4993,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.977,
+          "confidence": 0.898,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.97,
+          "score": 33,
+          "confidence": 0.852,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.989,
+          "score": 33,
+          "confidence": 0.859,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.962,
+          "confidence": 0.918,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -1828,33 +1828,33 @@
     {
       "frame": 975,
       "time_sec": 32.5,
-      "scene_confidence": 0.4992,
+      "scene_confidence": 0.4997,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.966,
+          "confidence": 0.888,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.979,
+          "score": 33,
+          "confidence": 0.824,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.971,
+          "score": 33,
+          "confidence": 0.859,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.971,
+          "confidence": 0.921,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -1863,33 +1863,33 @@
     {
       "frame": 990,
       "time_sec": 33.0,
-      "scene_confidence": 0.4988,
+      "scene_confidence": 0.4993,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.978,
+          "confidence": 0.9,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.979,
+          "score": 33,
+          "confidence": 0.831,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.986,
+          "score": 33,
+          "confidence": 0.862,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.965,
+          "confidence": 0.92,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -1898,103 +1898,103 @@
     {
       "frame": 1005,
       "time_sec": 33.5,
-      "scene_confidence": 0.499,
+      "scene_confidence": 0.4991,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.978,
+          "confidence": 0.898,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.979,
+          "score": 33,
+          "confidence": 0.831,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.954,
+          "score": 33,
+          "confidence": 0.864,
           "method": "template",
-          "template": "54_55_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.974,
+          "confidence": 0.921,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1020,
       "time_sec": 34.0,
-      "scene_confidence": 0.4989,
+      "scene_confidence": 0.4991,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.973,
+          "confidence": 0.889,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.978,
+          "score": 33,
+          "confidence": 0.831,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.957,
+          "score": 33,
+          "confidence": 0.863,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.972,
+          "confidence": 0.917,
           "method": "template",
-          "template": "40_55_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1035,
       "time_sec": 34.5,
-      "scene_confidence": 0.499,
+      "scene_confidence": 0.4987,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.981,
+          "confidence": 0.896,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.98,
+          "score": 33,
+          "confidence": 0.831,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.988,
+          "score": 33,
+          "confidence": 0.864,
           "method": "template",
-          "template": "54_30_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.963,
+          "confidence": 0.917,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2003,33 +2003,33 @@
     {
       "frame": 1050,
       "time_sec": 35.0,
-      "scene_confidence": 0.4989,
+      "scene_confidence": 0.4992,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.978,
+          "confidence": 0.896,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.977,
+          "score": 33,
+          "confidence": 0.83,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.956,
+          "score": 33,
+          "confidence": 0.863,
           "method": "template",
-          "template": "54_55_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.965,
+          "confidence": 0.918,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2038,68 +2038,68 @@
     {
       "frame": 1065,
       "time_sec": 35.5,
-      "scene_confidence": 0.499,
+      "scene_confidence": 0.4995,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 31,
-          "confidence": 0.975,
+          "confidence": 0.892,
           "method": "template",
           "template": "31_30_0.png"
         },
         {
           "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.981,
+          "score": 33,
+          "confidence": 0.829,
           "method": "template",
-          "template": "28_30_1.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.967,
+          "score": 33,
+          "confidence": 0.863,
           "method": "template",
-          "template": "54_55_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.972,
+          "confidence": 0.918,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1080,
       "time_sec": 36.0,
-      "scene_confidence": 0.5005,
+      "scene_confidence": 0.4972,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.953,
+          "confidence": 0.904,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.95,
+          "confidence": 0.933,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.983,
+          "score": 33,
+          "confidence": 0.858,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.964,
+          "confidence": 0.918,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2108,68 +2108,68 @@
     {
       "frame": 1335,
       "time_sec": 44.5,
-      "scene_confidence": 0.5004,
+      "scene_confidence": 0.4967,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.978,
+          "confidence": 0.889,
           "method": "template",
-          "template": "41_45_0.png"
+          "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.989,
+          "confidence": 0.932,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.988,
+          "score": 33,
+          "confidence": 0.855,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.975,
+          "confidence": 0.919,
           "method": "template",
-          "template": "40_55_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1350,
       "time_sec": 45.0,
-      "scene_confidence": 0.5003,
+      "scene_confidence": 0.4968,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.983,
+          "confidence": 0.893,
           "method": "template",
-          "template": "41_45_0.png"
+          "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.977,
+          "confidence": 0.931,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.989,
+          "score": 33,
+          "confidence": 0.853,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.967,
+          "confidence": 0.919,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2178,33 +2178,33 @@
     {
       "frame": 1365,
       "time_sec": 45.5,
-      "scene_confidence": 0.5005,
+      "scene_confidence": 0.4969,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.979,
+          "confidence": 0.893,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.95,
+          "confidence": 0.912,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.953,
+          "score": 33,
+          "confidence": 0.849,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.965,
+          "confidence": 0.919,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2213,33 +2213,33 @@
     {
       "frame": 1380,
       "time_sec": 46.0,
-      "scene_confidence": 0.5002,
+      "scene_confidence": 0.4965,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.977,
+          "confidence": 0.893,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.976,
+          "confidence": 0.93,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.974,
+          "score": 33,
+          "confidence": 0.854,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.963,
+          "confidence": 0.918,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2248,33 +2248,33 @@
     {
       "frame": 1395,
       "time_sec": 46.5,
-      "scene_confidence": 0.5004,
+      "scene_confidence": 0.4967,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.975,
+          "confidence": 0.888,
           "method": "template",
-          "template": "41_45_0.png"
+          "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.976,
+          "confidence": 0.934,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.981,
+          "score": 33,
+          "confidence": 0.851,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.963,
+          "confidence": 0.917,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2283,33 +2283,33 @@
     {
       "frame": 1410,
       "time_sec": 47.0,
-      "scene_confidence": 0.5004,
+      "scene_confidence": 0.4968,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.979,
+          "confidence": 0.899,
           "method": "template",
-          "template": "41_45_0.png"
+          "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.976,
+          "confidence": 0.933,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.988,
+          "score": 33,
+          "confidence": 0.859,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.964,
+          "confidence": 0.921,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2318,68 +2318,68 @@
     {
       "frame": 1425,
       "time_sec": 47.5,
-      "scene_confidence": 0.5001,
+      "scene_confidence": 0.4968,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.981,
-          "method": "template",
-          "template": "41_45_0.png"
-        },
-        {
-          "player": "VISHAL",
-          "score": 28,
-          "confidence": 0.949,
-          "method": "template",
-          "template": "28_45_1.png"
-        },
-        {
-          "player": "P",
-          "score": 54,
-          "confidence": 0.969,
-          "method": "template",
-          "template": "54_45_2.png"
-        },
-        {
-          "player": "TARUN",
-          "score": 40,
-          "confidence": 0.973,
-          "method": "template",
-          "template": "40_55_3.png"
-        }
-      ]
-    },
-    {
-      "frame": 1440,
-      "time_sec": 48.0,
-      "scene_confidence": 0.5001,
-      "rows": [
-        {
-          "player": "JAGDISH",
-          "score": 41,
-          "confidence": 0.98,
+          "confidence": 0.895,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.988,
+          "confidence": 0.93,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.981,
+          "score": 33,
+          "confidence": 0.857,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.963,
+          "confidence": 0.92,
+          "method": "template",
+          "template": "40_45_3.png"
+        }
+      ]
+    },
+    {
+      "frame": 1440,
+      "time_sec": 48.0,
+      "scene_confidence": 0.4972,
+      "rows": [
+        {
+          "player": "JAGDISH",
+          "score": 41,
+          "confidence": 0.894,
+          "method": "template",
+          "template": "41_55_0.png"
+        },
+        {
+          "player": "VISHAL",
+          "score": 28,
+          "confidence": 0.934,
+          "method": "template",
+          "template": "28_45_1.png"
+        },
+        {
+          "player": "P",
+          "score": 33,
+          "confidence": 0.852,
+          "method": "template",
+          "template": "33_0_3.png"
+        },
+        {
+          "player": "TARUN",
+          "score": 40,
+          "confidence": 0.92,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2388,103 +2388,103 @@
     {
       "frame": 1455,
       "time_sec": 48.5,
-      "scene_confidence": 0.5006,
+      "scene_confidence": 0.4971,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.982,
+          "confidence": 0.897,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 28,
-          "confidence": 0.979,
+          "confidence": 0.917,
           "method": "template",
           "template": "28_45_1.png"
         },
         {
           "player": "P",
           "score": 54,
-          "confidence": 0.955,
+          "confidence": 0.874,
           "method": "template",
           "template": "54_55_2.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.973,
+          "confidence": 0.92,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1575,
       "time_sec": 52.5,
-      "scene_confidence": 0.47,
+      "scene_confidence": 0.4692,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.973,
+          "confidence": 0.888,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.992,
+          "confidence": 0.933,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.985,
+          "score": 33,
+          "confidence": 0.854,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.976,
+          "confidence": 0.92,
           "method": "template",
-          "template": "40_55_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1590,
       "time_sec": 53.0,
-      "scene_confidence": 0.5014,
+      "scene_confidence": 0.4985,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.969,
+          "confidence": 0.882,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.992,
+          "confidence": 0.933,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.976,
+          "score": 33,
+          "confidence": 0.85,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.965,
+          "confidence": 0.919,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2493,68 +2493,68 @@
     {
       "frame": 1605,
       "time_sec": 53.5,
-      "scene_confidence": 0.5014,
+      "scene_confidence": 0.4985,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.974,
+          "confidence": 0.885,
           "method": "template",
-          "template": "41_45_0.png"
+          "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.991,
+          "confidence": 0.933,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.984,
+          "score": 33,
+          "confidence": 0.857,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.974,
+          "confidence": 0.921,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1620,
       "time_sec": 54.0,
-      "scene_confidence": 0.5013,
+      "scene_confidence": 0.4989,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.98,
+          "confidence": 0.888,
           "method": "template",
-          "template": "41_45_0.png"
+          "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.991,
+          "confidence": 0.93,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.987,
+          "score": 33,
+          "confidence": 0.852,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.964,
+          "confidence": 0.92,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2563,33 +2563,33 @@
     {
       "frame": 1635,
       "time_sec": 54.5,
-      "scene_confidence": 0.5015,
+      "scene_confidence": 0.4991,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.982,
+          "confidence": 0.891,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.988,
+          "confidence": 0.934,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.988,
+          "score": 33,
+          "confidence": 0.853,
           "method": "template",
-          "template": "54_55_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.965,
+          "confidence": 0.92,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2598,33 +2598,33 @@
     {
       "frame": 1650,
       "time_sec": 55.0,
-      "scene_confidence": 0.5018,
+      "scene_confidence": 0.4989,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.985,
+          "confidence": 0.887,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.992,
+          "confidence": 0.931,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.974,
+          "score": 33,
+          "confidence": 0.853,
           "method": "template",
-          "template": "54_55_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.965,
+          "confidence": 0.92,
           "method": "template",
           "template": "40_45_3.png"
         }
@@ -2633,173 +2633,173 @@
     {
       "frame": 1665,
       "time_sec": 55.5,
-      "scene_confidence": 0.5013,
+      "scene_confidence": 0.4989,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.982,
+          "confidence": 0.891,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.979,
+          "confidence": 0.931,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.985,
+          "score": 33,
+          "confidence": 0.852,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.975,
+          "confidence": 0.92,
           "method": "template",
-          "template": "40_55_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1680,
       "time_sec": 56.0,
-      "scene_confidence": 0.5015,
+      "scene_confidence": 0.4991,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.98,
+          "confidence": 0.887,
           "method": "template",
-          "template": "41_45_0.png"
+          "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.988,
+          "confidence": 0.932,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.972,
+          "score": 33,
+          "confidence": 0.859,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.975,
+          "confidence": 0.918,
           "method": "template",
-          "template": "40_55_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1695,
       "time_sec": 56.5,
-      "scene_confidence": 0.5013,
+      "scene_confidence": 0.499,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.98,
+          "confidence": 0.889,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.991,
+          "confidence": 0.93,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.963,
+          "score": 33,
+          "confidence": 0.857,
           "method": "template",
-          "template": "54_45_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.974,
+          "confidence": 0.919,
           "method": "template",
-          "template": "40_30_3.png"
+          "template": "40_45_3.png"
         }
       ]
     },
     {
       "frame": 1710,
       "time_sec": 57.0,
-      "scene_confidence": 0.5016,
+      "scene_confidence": 0.4987,
       "rows": [
         {
           "player": "JAGDISH",
           "score": 41,
-          "confidence": 0.98,
-          "method": "template",
-          "template": "41_45_0.png"
-        },
-        {
-          "player": "VISHAL",
-          "score": 37,
-          "confidence": 0.989,
-          "method": "template",
-          "template": "37_55_1.png"
-        },
-        {
-          "player": "P",
-          "score": 54,
-          "confidence": 0.985,
-          "method": "template",
-          "template": "54_45_2.png"
-        },
-        {
-          "player": "TARUN",
-          "score": 40,
-          "confidence": 0.975,
-          "method": "template",
-          "template": "40_55_3.png"
-        }
-      ]
-    },
-    {
-      "frame": 1725,
-      "time_sec": 57.5,
-      "scene_confidence": 0.5013,
-      "rows": [
-        {
-          "player": "JAGDISH",
-          "score": 41,
-          "confidence": 0.977,
+          "confidence": 0.892,
           "method": "template",
           "template": "41_55_0.png"
         },
         {
           "player": "VISHAL",
           "score": 37,
-          "confidence": 0.979,
+          "confidence": 0.934,
           "method": "template",
           "template": "37_55_1.png"
         },
         {
           "player": "P",
-          "score": 54,
-          "confidence": 0.946,
+          "score": 33,
+          "confidence": 0.857,
           "method": "template",
-          "template": "54_55_2.png"
+          "template": "33_0_3.png"
         },
         {
           "player": "TARUN",
           "score": 40,
-          "confidence": 0.965,
+          "confidence": 0.918,
+          "method": "template",
+          "template": "40_45_3.png"
+        }
+      ]
+    },
+    {
+      "frame": 1725,
+      "time_sec": 57.5,
+      "scene_confidence": 0.4983,
+      "rows": [
+        {
+          "player": "JAGDISH",
+          "score": 41,
+          "confidence": 0.901,
+          "method": "template",
+          "template": "41_55_0.png"
+        },
+        {
+          "player": "VISHAL",
+          "score": 37,
+          "confidence": 0.933,
+          "method": "template",
+          "template": "37_55_1.png"
+        },
+        {
+          "player": "P",
+          "score": 33,
+          "confidence": 0.85,
+          "method": "template",
+          "template": "33_0_3.png"
+        },
+        {
+          "player": "TARUN",
+          "score": 40,
+          "confidence": 0.919,
           "method": "template",
           "template": "40_45_3.png"
         }
