@@ -27,20 +27,23 @@ No installation required! Upload a bowling scoreboard video and extract scores i
 
 ## 📸 Screenshots
 
-### Input Scoreboard Detection
-![Input Scoreboard](screenshorts/01_input_scoreboard.jpg)
+### Input Video
+![Input Video](screenshorts/input%20video.png)
 
-### Score Extraction Process
-![Detected Scoreboard](screenshorts/03_detected_scoreboard.jpg)
+### Frame Detection
+![Frame Detection](screenshorts/frames.png)
 
-### Final Results
-![Final Output](screenshorts/05_final_output.png)
+### Score Extraction
+![Score Extraction](screenshorts/extract.png)
 
-### Application Running
-![Code Running](screenshorts/02_code_running.png)
+### Analytics Dashboard
+![Analytics](screenshorts/analysis.png)
 
-### Processed Scoreboard
-![Processed Result](screenshorts/04_final_scoreboard.jpg)
+### Observations
+![Observations](screenshorts/observation.png)
+
+### Application Code
+![Application Code](screenshorts/codepart.png)
 
 ## Sample result
 
