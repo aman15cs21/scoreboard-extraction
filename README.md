@@ -4,6 +4,12 @@ Bowling scoreboard detection and score extraction from video, created by **Aman 
 
 This project reads bowling videos, detects scoreboard frames, extracts player scores with computer vision, validates readings across time, and exports structured results. It includes a command-line application and an interactive Streamlit web interface.
 
+## 🌐 Try Online
+
+**[Launch Live Demo → Scoreboard Vision · Streamlit](https://scoreboard-extraction-uay8nkl5ynedyezwvh2pjg.streamlit.app/)**
+
+No installation required! Upload a bowling scoreboard video and extract scores instantly.
+
 ## Features
 
 - OpenCV video decoding and configurable frame sampling.
@@ -18,6 +24,23 @@ This project reads bowling videos, detects scoreboard frames, extracts player sc
 - Optional upload of MP4, MOV, AVI, MKV, or WebM videos.
 - Analytics dashboard for score trends, recognition confidence, scene confidence, final board, and raw observations.
 - Download buttons for JSON, CSV, and annotated video.
+
+## 📸 Screenshots
+
+### Input Scoreboard Detection
+![Input Scoreboard](screenshorts/01_input_scoreboard.jpg)
+
+### Score Extraction Process
+![Detected Scoreboard](screenshorts/03_detected_scoreboard.jpg)
+
+### Final Results
+![Final Output](screenshorts/05_final_output.png)
+
+### Application Running
+![Code Running](screenshorts/02_code_running.png)
+
+### Processed Scoreboard
+![Processed Result](screenshorts/04_final_scoreboard.jpg)
 
 ## Sample result
 
@@ -89,31 +112,89 @@ Computer-Vision-Scoreboard-Extraction/
 └── DOCUMENTATION.pdf
 ```
 
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/Scoreboard-Extraction.git
+cd Scoreboard-Extraction
+```
+
+Replace `yourusername` with your actual GitHub username.
+
 ## Installation
 
 Create and activate a virtual environment, then install the requirements:
 
-```text
+```bash
+# Create virtual environment
 python -m venv .venv
+
+# Activate virtual environment
+# On Windows:
 .venv\Scripts\activate
+# On macOS/Linux:
+source .venv/bin/activate
+
+# Install dependencies
 python -m pip install -r requirements.txt
 ```
 
 This workspace may use a nested environment. If `streamlit` is not found, use the configured interpreter explicitly:
 
-```text
+```bash
 ".venv/.venv/Scripts/python.exe" -m pip install -r requirements.txt
 ```
 
-## Run the Streamlit application
+## 💻 Run the Application
 
-```text
+### Option 1: Run the Streamlit Web Application (Recommended)
+
+```bash
+streamlit run app.py
+```
+
+Or with explicit Python path:
+
+```bash
 ".venv/.venv/Scripts/python.exe" -m streamlit run app.py
 ```
 
 Open the local URL printed in the terminal, normally `http://localhost:8501`.
 
-### Streamlit workflow
+**Web App Features:**
+- Default `input/bowling_scoreboard__.mp4` loads automatically
+- Upload your own video (MP4, MOV, AVI, MKV, WebM)
+- Adjust **Analyze every Nth frame** slider in sidebar
+- Enable **OCR fallback** if needed
+- Click **Extract scoreboard** to process
+- View analytics dashboard with score trends, confidence charts, and final board
+- Download results as JSON, CSV, or annotated MP4 video
+
+### Option 2: Run from Command Line
+
+```bash
+python main.py --input input/bowling_scoreboard__.mp4 --output output --sample-every 15
+```
+
+**Available options:**
+
+| Option | Description |
+| --- | --- |
+| `--input`, `-i` | Input video path (required) |
+| `--output`, `-o` | Output directory (required) |
+| `--sample-every N` | Analyze every Nth frame; default is 15 |
+| `--no-video` | Skip annotated video generation |
+| `--ocr-fallback` | Use Tesseract when template confidence is low |
+
+**Example with OCR fallback:**
+
+```bash
+python main.py --input input/bowling_scoreboard__.mp4 --output output --sample-every 15 --ocr-fallback
+```
+
+### Web Application Workflow
 
 1. The default `input/bowling_scoreboard__.mp4` is displayed automatically.
 2. Optionally upload another video to override the default.
@@ -124,28 +205,6 @@ Open the local URL printed in the terminal, normally `http://localhost:8501`.
 7. Download JSON, CSV, or the annotated video.
 
 The sidebar is visible by default and configured to occupy approximately 30% of the viewport width.
-
-## Run from the command line
-
-```text
-".venv/.venv/Scripts/python.exe" main.py --input input/bowling_scoreboard__.mp4 --output output --sample-every 15
-```
-
-Available options:
-
-| Option | Description |
-| --- | --- |
-| `--input`, `-i` | Input video path |
-| `--output`, `-o` | Output directory |
-| `--sample-every N` | Analyze every Nth frame; default is 15 |
-| `--no-video` | Skip annotated video generation |
-| `--ocr-fallback` | Use Tesseract when template confidence is low |
-
-Example with OCR:
-
-```text
-".venv/.venv/Scripts/python.exe" main.py --input input/bowling_scoreboard__.mp4 --output output --sample-every 15 --ocr-fallback
-```
 
 ## OCR setup
 
